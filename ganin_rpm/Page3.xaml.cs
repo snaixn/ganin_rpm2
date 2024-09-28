@@ -24,7 +24,7 @@ namespace ganin_rpm
 
         private void ShowSeriesLengths_Click(object sender, RoutedEventArgs e)
         {
-            string[] inputArray = InputArrayTextBox.Text.Split(',');
+            string[] inputArray = InputArrayTextBox.Text.Split(' ');
             int[] array = inputArray.Select(int.Parse).ToArray();
             List<int> seriesLengths = new List<int>();
 

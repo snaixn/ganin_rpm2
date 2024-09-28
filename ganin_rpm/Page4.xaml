@@ -9,7 +9,7 @@
       Title="Page4">
 
     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 110 0 0">
-        <TextBlock Text="Дан целочисленный массив размера N. Назовем серией группу подряд идущих одинаковых элементов, а длиной серии — количество этих элементов (длина серии может быть равна 1). Вывести строку, содержащую длины всех серий исходного массива."
+        <TextBlock Text="Поменять местами максимальный по модулю отрицательный элемент и минимальный положительный. Тестовый массив 4 5 6 7 - 12 -3 4 -5 -7 2 Результат: первый элемент равен -12, на позиции 4, второй элемент равен 2, на позиции 9. Результат перестановки 4 5 6 7 2 -3 4 5 -7 -12"
                    TextWrapping="Wrap" FontSize="14" Margin="5" Width="466" TextAlignment="Center"/>
         <TextBox x:Name="InputArrayTextBox" Width="200" Height="30" />
         <Button Content="Переставить элементы" Width="200" Height="30" Click="SwapElements_Click" />
